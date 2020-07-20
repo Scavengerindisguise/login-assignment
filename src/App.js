@@ -13,7 +13,7 @@ function App() {
       <Route path ='/movies' component={Movies}/>
       <Route path='/sign-up' component={SignUp} />
       <Route path='/log-in' component={LogIn} />
-      <Route path='/' component={LogIn}/>
+      <Route path='/' component={SignUp}/>
     </Switch>
   );
 }
